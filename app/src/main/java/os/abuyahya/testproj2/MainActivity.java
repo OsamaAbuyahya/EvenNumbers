@@ -64,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private int evenNumber(int start, int end) {
+        // Instead of using the (for) sentence
         return ( end - start + 2 -( start % 2 ) ) / 2;
     }
 }
